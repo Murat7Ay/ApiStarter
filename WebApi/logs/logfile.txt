@@ -1,0 +1,119 @@
+2018-07-09 18:59:48.2088 Info Guid:58c6391b-98bb-41a6-8cbd-879e04ac7f22, Uri:http://localhost:13870/api/auth , Request:{
+	UserName :"Test",
+	Password : "123456"
+} 
+2018-07-09 19:00:08.5647 Info Guid:ede34496-cf0b-49ef-a9bf-05508ed90724, Uri:http://localhost:13870/api/auth , Request:{
+	UserName :"Test",
+	Password : "123456"
+} 
+2018-07-09 19:03:01.1782 Info Guid:f55fb1ca-ed4d-43d5-a1ff-b4fc586762bf, Uri:http://localhost:13870/api/auth , Request:{
+	Password : "123456",
+	UserName :"Test"
+} 
+2018-07-09 19:05:46.7221 Info Guid:502def95-84ac-47e5-97f5-6d03d684dcad, Uri:http://localhost:13870/api/auth , Request:{
+	Password : "123456",
+	UserName :"Test",
+	IsActive : true,
+	UserRoles : ["Admin"]
+} 
+2018-07-09 19:05:46.8490 Info Guid:502def95-84ac-47e5-97f5-6d03d684dcad, Uri:http://localhost:13870/api/auth , Response:{
+ "Message": "The request entity's media type 'text/plain' is not supported for this resource.",
+ "ExceptionMessage": "No MediaTypeFormatter is available to read an object of type 'AuthenticationModel' from content with media type 'text/plain'.",
+ "ExceptionType": "System.Net.Http.UnsupportedMediaTypeException",
+ "StackTrace": "   konum: System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger, CancellationToken cancellationToken)\r\n   konum: System.Web.Http.ModelBinding.FormatterParameterBinding.ReadContentAsync(HttpRequestMessage request, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger, CancellationToken cancellationToken)"
+} 
+2018-07-09 19:05:55.6493 Info Guid:23247c9d-f3e4-4d68-a5c0-d65861cada38, Uri:http://localhost:13870/api/auth , Request:{
+	Password : "123456",
+	UserName :"Test",
+	IsActive : true,
+	UserRoles : ["Admin"]
+} 
+2018-07-09 19:09:21.8916 Info Guid:acdfdc80-bf18-480d-9d6f-d716fdd34135, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-09 19:09:22.0265 Info Guid:acdfdc80-bf18-480d-9d6f-d716fdd34135, Uri:http://localhost:13870/api/test/1?text=1 , Response:{
+ "Message": "Authorization has been denied for this request."
+} 
+2018-07-09 19:09:23.0110 Info Guid:c798565d-91d8-4a93-8564-de943069e9a3, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-09 19:09:23.0110 Info Guid:c798565d-91d8-4a93-8564-de943069e9a3, Uri:http://localhost:13870/api/test/1?text=1 , Response:{
+ "Message": "Authorization has been denied for this request."
+} 
+2018-07-09 19:11:00.3253 Info Guid:d85d2219-3a67-4bd7-8360-621a1fc6a25b, Uri:http://localhost:13870/api/auth , Request:{a:1} 
+2018-07-09 19:17:07.7244 Info Guid:f9a77209-759a-4d63-82f6-62145cb413cb, Uri:http://localhost:13870/api/auth , Request:{Username:"Test",Password:"123456"} 
+2018-07-09 19:18:35.8220 Info Guid:5314317d-4fc0-456b-bfd8-9a3b16f42b63, Uri:http://localhost:13870/api/auth , Request:{Username:"Test",Password:"123456"} 
+2018-07-09 19:19:38.8820 Info Guid:1bb1a547-e945-4bfd-9018-5d7fe3dfd60a, Uri:http://localhost:13870/api/auth , Request:{username:"Test",password:"123456"} 
+2018-07-09 19:27:50.2653 Info Guid:6f5926d6-b119-494b-9600-5dd201b8ff77, Uri:http://localhost:13870/api/auth , Request:{username:"Test",password:"123456"} 
+2018-07-09 19:27:50.4302 Error Nesne baþvurusu bir nesnenin örneðine ayarlanmadý. 
+2018-07-09 19:27:50.4302 Info Guid:6f5926d6-b119-494b-9600-5dd201b8ff77, Uri:http://localhost:13870/api/auth , Response:{"Success":false,"Code":-1,"Message":"Technical Error","Info":null,"Exception":null} 
+2018-07-09 19:28:17.9947 Info Guid:472d580c-6863-4e99-abcc-01b127ba0658, Uri:http://localhost:13870/api/auth , Request:{username:"Test",password:"123456"} 
+2018-07-09 22:40:53.2355 Info Guid:675680f7-fe4f-4007-a4a5-1dbd1ac53c43, Uri:http://localhost:13870/api/auth , Request:{username:"Test",password:"123456"} 
+2018-07-09 22:45:49.3300 Info Guid:e222481a-6d3b-4503-917e-24a786fbfa9e, Uri:http://localhost:13870/api/auth , Request:{
+	Username:"t",
+	Password:"g"
+} 
+2018-07-09 22:46:35.1958 Info Guid:58ae2707-04c9-4a81-ad0a-4e361b3894c7, Uri:http://localhost:13870/api/auth , Request:{
+	Username:"t",
+	Password:"g"
+} 
+2018-07-09 22:47:25.1988 Info Guid:e5efbe5c-a7d3-4df4-bcd7-b6918990a34b, Uri:http://localhost:13870/api/auth , Request:{
+	Username:"t",
+	Password:"g"
+} 
+2018-07-09 22:47:26.0406 Error Messasge: Username alaný, uzunluðu en az '5' olan bir dize veya dizi türü olmalýdýr.,Password alaný, uzunluðu en az '5' olan bir dize veya dizi türü olmalýdýr., Guid:e5efbe5c-a7d3-4df4-bcd7-b6918990a34b, Uri:http://localhost:13870/api/auth  
+2018-07-09 22:47:37.7663 Info Guid:e5efbe5c-a7d3-4df4-bcd7-b6918990a34b, Uri:http://localhost:13870/api/auth , Response:{"Success":false,"Code":-1,"Message":"Technical Error","Info":null,"Exception":"Username alaný, uzunluðu en az '5' olan bir dize veya dizi türü olmalýdýr.,Password alaný, uzunluðu en az '5' olan bir dize veya dizi türü olmalýdýr."} 
+2018-07-09 22:48:23.1082 Info Guid:b0b4e0f4-7c9d-44b9-8ba0-f8b531d892f8, Uri:http://localhost:13870/api/auth , Request:{
+	Username:"Test",
+	Password:"123456"
+} 
+2018-07-09 22:48:23.3222 Error Messasge: Username alaný, uzunluðu en az '5' olan bir dize veya dizi türü olmalýdýr., Guid:b0b4e0f4-7c9d-44b9-8ba0-f8b531d892f8, Uri:http://localhost:13870/api/auth  
+2018-07-09 22:48:24.5269 Info Guid:b0b4e0f4-7c9d-44b9-8ba0-f8b531d892f8, Uri:http://localhost:13870/api/auth , Response:{"Success":false,"Code":-1,"Message":"Technical Error","Info":null,"Exception":"Username alaný, uzunluðu en az '5' olan bir dize veya dizi türü olmalýdýr."} 
+2018-07-09 22:49:32.1974 Info Guid:cfe9e92b-3f16-4787-b4e8-0ac70cf0d34e, Uri:http://localhost:13870/api/auth , Request:{
+	Username:"TestUser",
+	Password:"123456"
+} 
+2018-07-09 22:50:38.6211 Info Guid:0520b302-1c70-4c71-8eef-3dba42aa03d1, Uri:http://localhost:13870/api/auth , Request:{
+	Username:"TestUser",
+	Password:"123456"
+} 
+2018-07-09 22:51:35.9006 Info Guid:077e2a00-0e1a-4e55-baf4-2028bb33576e, Uri:http://localhost:13870/api/auth , Request:{
+	Username:"TestUser",
+	Password:"123456"
+} 
+2018-07-09 22:52:32.7343 Info Guid:40d7557f-42d0-4ee8-b5fb-4c152989da5c, Uri:http://localhost:13870/api/auth , Request:{
+	Username:"TestUser",
+	Password:"12345"
+} 
+2018-07-09 22:52:37.0434 Info Guid:40d7557f-42d0-4ee8-b5fb-4c152989da5c, Uri:http://localhost:13870/api/auth , Response:{"ExpiresAt":"2018-07-09T21:52:34.3879805Z","Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRlc3RVc2VyIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNTMxMTY1OTU0LCJleHAiOjE1MzExNzMxNTQsImlhdCI6MTUzMTE2NTk1NH0.--1fjnuHgYXLzcRJ9MbdrL00kj-XnujuYC_Kf0s0PK4","Success":true,"Code":90,"Message":"Authentication Success","Info":null} 
+2018-07-09 22:54:13.9150 Info Guid:39e15a53-533b-49a9-b5c5-9ef039e6fc1a, Uri:http://localhost:13870/api/auth , Request:{
+	Username:"TestUser",
+	Password:"12345"
+} 
+2018-07-09 22:56:41.8644 Info Guid:df905e31-fde3-4af2-b7f6-c31190e5624f, Uri:http://localhost:13870/api/auth , Request:{
+	Username:"TestUser",
+	Password:"12345"
+} 
+2018-07-09 23:00:23.6851 Info Guid:ca1da57c-5548-4ea1-8abc-ec05254aeee9, Uri:http://localhost:13870/api/auth , Request:{
+	Username:"TestUser",
+	Password:"12345"
+} 
+2018-07-09 23:03:46.8284 Info Guid:191d64c3-775c-4567-8dd0-26a7eb628b17, Uri:http://localhost:13870/api/auth , Request:{
+	Username:"TestUser",
+	Password:"12345"
+} 
+2018-07-09 23:08:53.2761 Info Guid:775876b1-3bfe-4ce1-87b0-718053c816df, Uri:http://localhost:13870/api/auth , Request:{
+	Username:"TestUser",
+	Password:"12345"
+} 
+2018-07-09 23:12:59.2959 Info Guid:067eb987-3d53-418d-ad62-fcfa40ed32d3, Uri:http://localhost:13870/api/auth , Request:{
+	Name:"TestUser",
+	Password:"12345"
+} 
+2018-07-09 23:15:20.2267 Info Guid:1249d7eb-6fa5-4209-82a5-e507afd82a9a, Uri:http://localhost:13870/api/auth , Request:{
+	"UserName":"TestUser",
+	"Password":"12345"
+} 
+2018-07-09 23:15:35.9856 Error Messasge: Username alaný gereklidir., Guid:1249d7eb-6fa5-4209-82a5-e507afd82a9a, Uri:http://localhost:13870/api/auth  
+2018-07-09 23:15:43.4431 Info Guid:1249d7eb-6fa5-4209-82a5-e507afd82a9a, Uri:http://localhost:13870/api/auth , Response:{"Success":false,"Code":-1,"Message":"Technical Error","Info":null,"Exception":"Username alaný gereklidir."} 
+2018-07-09 23:16:03.1411 Info Guid:4c21fc3e-0604-438a-9eaf-e94d58d455e7, Uri:http://localhost:13870/api/auth , Request:{
+	"Username":"TestUser",
+	"Password":"12345"
+} 
+2018-07-09 23:16:21.2125 Info Guid:4c21fc3e-0604-438a-9eaf-e94d58d455e7, Uri:http://localhost:13870/api/auth , Response:{"Success":true,"Code":90,"ExpiresAt":"2018-07-09T22:16:15.0018009Z","Message":"Authentication Success","Info":null,"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRlc3RVc2VyIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNTMxMTY3Mzc1LCJleHAiOjE1MzExNzQ1NzUsImlhdCI6MTUzMTE2NzM3NX0.5lYX0lQujDce5aiDiSM5-D5HvSeplcDh7wmosoFO4Mk"} 
