@@ -18,8 +18,8 @@ namespace WebApi.Controllers
             throw new Exception("Deneme");
         }
 
+        [ThrottleFilter(ThrottleGroup: "updates")]
         [DeflateCompression]
-        [ThrottleFilter(RequestLimit: 5, TimeoutInSeconds: 5)]
         public IHttpActionResult Get(string id, string text)
         {
             var dateList = new List<DateTime>();

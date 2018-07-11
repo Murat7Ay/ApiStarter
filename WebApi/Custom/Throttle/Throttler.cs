@@ -13,13 +13,14 @@ namespace WebApi.Custom.Throttle
         public int RequestLimit { get; private set; }
         public int RequestsRemaining { get; private set; }
         public DateTime WindowResetDate { get; private set; }
-        private static readonly ConcurrentDictionary<string, ThrottleInfo> Cache =
+        private static  ConcurrentDictionary<string, ThrottleInfo> _cache =
             new ConcurrentDictionary<string, ThrottleInfo>();
 
         public string ThrottleGroup { get; set; }
         private readonly int _timeoutInSeconds;
+        private int _throttleInfoRequestCount;
 
-        public Throttler(string key, int requestLimit = 5, int timeoutInSeconds = 10)
+        public Throttler(string key, int requestLimit = 5, int timeoutInSeconds = 100)
         {
             RequestLimit = requestLimit;
             _timeoutInSeconds = timeoutInSeconds;
@@ -29,7 +30,7 @@ namespace WebApi.Custom.Throttle
         private ThrottleInfo GetThrottleInfoFromCache()
         {
             ThrottleInfo throttleInfo =
-                Cache.ContainsKey(ThrottleGroup) ? Cache[ThrottleGroup] : null;
+                _cache.ContainsKey(ThrottleGroup) ? _cache[ThrottleGroup] : null;
 
             if (throttleInfo == null || throttleInfo.ExpiresAt <= DateTime.Now)
             {
@@ -56,16 +57,20 @@ namespace WebApi.Custom.Throttle
 
         public void IncrementRequestCount()
         {
-            Cache.AddOrUpdate(ThrottleGroup, new ThrottleInfo
-            {
-                ExpiresAt = DateTime.Now.AddSeconds(_timeoutInSeconds),
-                RequestCount = 1
-            }, (retrievedKey, throttleInfo) =>
-            {
-                var throttleInfoRequestCount = throttleInfo.RequestCount;
-                Interlocked.Increment(ref throttleInfoRequestCount);
-                return throttleInfo;
-            });
+            //_cache.AddOrUpdate(ThrottleGroup, new ThrottleInfo
+            //{
+            //    ExpiresAt = DateTime.Now.AddSeconds(_timeoutInSeconds),
+            //    RequestCount = 1
+            //}, (retrievedKey, throttleInfo) =>
+            //{
+            //    _throttleInfoRequestCount = throttleInfo.RequestCount;
+            //    Interlocked.Increment(ref _throttleInfoRequestCount);
+            //    return throttleInfo;
+            //});
+
+            ThrottleInfo throttleInfo = GetThrottleInfoFromCache();
+            throttleInfo.RequestCount++;
+            _cache[ThrottleGroup] = throttleInfo;
         }
 
         private class ThrottleInfo

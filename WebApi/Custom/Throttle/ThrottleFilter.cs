@@ -9,6 +9,7 @@ using System.Web.Http.Controllers;
 using System.Web.Http.Filters;
 using WebApi.Enums;
 using WebApi.Factory;
+using WebApi.Models;
 
 namespace WebApi.Custom.Throttle
 {
@@ -19,11 +20,11 @@ namespace WebApi.Custom.Throttle
 
         public ThrottleFilter(
             int RequestLimit = 5,
-            int TimeoutInSeconds = 10,
-            [CallerMemberName] string throttleGroup = null)
+            int TimeoutInSeconds = 100,
+            [CallerMemberName] string ThrottleGroup = null)
         {
-            _throttleGroup = throttleGroup;
-            _throttler = new Throttler(throttleGroup, RequestLimit, TimeoutInSeconds);
+            _throttleGroup = ThrottleGroup;
+            _throttler = new Throttler(ThrottleGroup, RequestLimit, TimeoutInSeconds);
         }
 
         public override void OnActionExecuting(HttpActionContext actionContext)
@@ -33,7 +34,7 @@ namespace WebApi.Custom.Throttle
             if (_throttler.RequestShouldBeThrottled)
             {
                 actionContext.Response = actionContext.Request.CreateResponse(
-                    (HttpStatusCode)429, ExceptionFactory.GetExceptionText(ResultEnum.TooManyRequests));
+                    (HttpStatusCode)429, new BaseResponse(ResultEnum.TooManyRequests));
 
                 AddThrottleHeaders(actionContext.Response);
             }
