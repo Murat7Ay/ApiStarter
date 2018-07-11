@@ -117,3 +117,356 @@
 	"Password":"12345"
 } 
 2018-07-09 23:16:21.2125 Info Guid:4c21fc3e-0604-438a-9eaf-e94d58d455e7, Uri:http://localhost:13870/api/auth , Response:{"Success":true,"Code":90,"ExpiresAt":"2018-07-09T22:16:15.0018009Z","Message":"Authentication Success","Info":null,"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRlc3RVc2VyIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNTMxMTY3Mzc1LCJleHAiOjE1MzExNzQ1NzUsImlhdCI6MTUzMTE2NzM3NX0.5lYX0lQujDce5aiDiSM5-D5HvSeplcDh7wmosoFO4Mk"} 
+2018-07-10 00:51:06.4964 Info Guid:cd5c9fba-9eed-452b-9cad-4ec577420b96, Uri:http://localhost:13870/api/auth , Request:{
+	"Username":"TestUser",
+	"Password":"12345"
+} 
+2018-07-10 00:51:09.7332 Info Guid:cd5c9fba-9eed-452b-9cad-4ec577420b96, Uri:http://localhost:13870/api/auth , Response:{"Success":true,"Code":90,"ExpiresAt":"2018-07-09T23:51:09.5973259Z","Message":"Authentication Success","Info":null,"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRlc3RVc2VyIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNTMxMTczMDY5LCJleHAiOjE1MzExODAyNjksImlhdCI6MTUzMTE3MzA2OX0.FxnnsZPvzwAZWfMR2FQ_SAIe2SMWlNXbHsJ4sq5S2uE"} 
+2018-07-10 00:51:56.4395 Info Guid:024d142e-d82d-46a6-bc48-8f88e065794a, Uri:http://localhost:13870/api/test/1 , Request: 
+2018-07-10 00:51:56.4674 Info Guid:024d142e-d82d-46a6-bc48-8f88e065794a, Uri:http://localhost:13870/api/test/1 , Response:{"Message":"Authorization has been denied for this request."} 
+2018-07-10 00:52:31.7807 Info Guid:5be1277e-fa7e-4c26-8167-a36f7b1d759a, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 00:52:31.7917 Info Guid:5be1277e-fa7e-4c26-8167-a36f7b1d759a, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Message":"Authorization has been denied for this request."} 
+2018-07-10 00:52:33.2797 Info Guid:300ddd91-126f-4f35-96df-e7743ce9aac1, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 00:52:33.2797 Info Guid:300ddd91-126f-4f35-96df-e7743ce9aac1, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Message":"Authorization has been denied for this request."} 
+2018-07-10 00:52:34.3669 Info Guid:dfdd50a6-e371-40c0-9de8-dff192be1326, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 00:52:34.3669 Info Guid:dfdd50a6-e371-40c0-9de8-dff192be1326, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Message":"Authorization has been denied for this request."} 
+2018-07-10 00:53:30.6225 Info Guid:7d11eeb2-9704-4585-950b-33b979ed248b, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 00:53:30.7184 Info Guid:7d11eeb2-9704-4585-950b-33b979ed248b, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Message":"Authorization has been denied for this request."} 
+2018-07-10 00:53:32.1514 Info Guid:77a2765f-72f1-4d47-b4e8-7645afc9ec88, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 00:53:32.1514 Info Guid:77a2765f-72f1-4d47-b4e8-7645afc9ec88, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Message":"Authorization has been denied for this request."} 
+2018-07-10 00:53:33.6883 Info Guid:118d529f-f26f-4057-a080-d67fc2cfb5a2, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 00:53:33.6883 Info Guid:118d529f-f26f-4057-a080-d67fc2cfb5a2, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Message":"Authorization has been denied for this request."} 
+2018-07-10 00:54:03.2796 Info Guid:eb1d1cbd-70e8-4e59-b45b-48d904903289, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 00:54:03.3705 Info Guid:eb1d1cbd-70e8-4e59-b45b-48d904903289, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Message":"Authorization has been denied for this request."} 
+2018-07-10 00:54:04.7226 Info Guid:71db15a4-9ed9-4d1e-a934-cd379214ef9e, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 00:54:04.7226 Info Guid:71db15a4-9ed9-4d1e-a934-cd379214ef9e, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Message":"Authorization has been denied for this request."} 
+2018-07-10 00:54:05.8568 Info Guid:e91b4b97-1ebd-4bf8-9e6c-2b9d73ca0bd1, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 00:54:05.8568 Info Guid:e91b4b97-1ebd-4bf8-9e6c-2b9d73ca0bd1, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Message":"Authorization has been denied for this request."} 
+2018-07-10 00:55:03.0200 Info Guid:369e8647-063d-4cfe-9fb9-b3ccfa5801cc, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 00:55:03.1210 Info Guid:369e8647-063d-4cfe-9fb9-b3ccfa5801cc, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Message":"Authorization has been denied for this request."} 
+2018-07-10 00:55:04.7334 Info Guid:43addb1a-a3da-48ac-8ae8-e3e709bff81d, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 00:55:04.7334 Info Guid:43addb1a-a3da-48ac-8ae8-e3e709bff81d, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Message":"Authorization has been denied for this request."} 
+2018-07-10 00:55:38.6608 Info Guid:de69ae84-5107-4138-abdd-1d2cd433b616, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 00:55:38.6608 Info Guid:de69ae84-5107-4138-abdd-1d2cd433b616, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Message":"Authorization has been denied for this request."} 
+2018-07-10 00:55:39.9872 Info Guid:69fa3d8c-725e-45bf-871f-381d7dba8cd6, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 00:55:39.9872 Info Guid:69fa3d8c-725e-45bf-871f-381d7dba8cd6, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Message":"Authorization has been denied for this request."} 
+2018-07-10 00:56:00.5430 Info Guid:91e2de60-e81c-4a16-968a-cb8227d9e7e0, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 00:56:00.5430 Info Guid:91e2de60-e81c-4a16-968a-cb8227d9e7e0, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Message":"Authorization has been denied for this request."} 
+2018-07-10 00:56:01.9075 Info Guid:18754835-78a2-4d8d-b390-5003413e3f8e, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 00:56:01.9075 Info Guid:18754835-78a2-4d8d-b390-5003413e3f8e, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Message":"Authorization has been denied for this request."} 
+2018-07-10 00:56:51.6596 Info Guid:a1fd2171-5e69-41c2-9522-322e9a324783, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 00:56:51.6596 Info Guid:a1fd2171-5e69-41c2-9522-322e9a324783, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Message":"Authorization has been denied for this request."} 
+2018-07-10 00:56:52.7671 Info Guid:aa32995d-46e9-4d1a-befe-4f4d9eabfb78, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 00:56:52.7671 Info Guid:aa32995d-46e9-4d1a-befe-4f4d9eabfb78, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Message":"Authorization has been denied for this request."} 
+2018-07-10 00:56:53.6698 Info Guid:5f29ed6f-5e5f-469d-a921-df50cdf1b2f4, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 00:56:53.6698 Info Guid:5f29ed6f-5e5f-469d-a921-df50cdf1b2f4, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Message":"Authorization has been denied for this request."} 
+2018-07-10 00:57:14.8923 Info Guid:9355781a-c4b3-4ec5-8223-af2d579542a9, Uri:http://localhost:13870/api/auth , Request:{
+	"Username":"TestUser",
+	"Password":"12345"
+} 
+2018-07-10 00:57:48.5478 Info Guid:9355781a-c4b3-4ec5-8223-af2d579542a9, Uri:http://localhost:13870/api/auth , Response:{"Success":true,"Code":90,"ExpiresAt":"2018-07-09T23:57:22.5512554Z","Message":"Authentication Success","Info":null,"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRlc3RVc2VyIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNTMxMTczNDYwLCJleHAiOjE1MzExODA2NDIsImlhdCI6MTUzMTE3MzQ2MH0.3Ikw52XqzbBiBdZ8sEJEo13odE-WHmP6ZazfNvpe2fU"} 
+2018-07-10 00:58:20.6739 Info Guid:782e9dab-7933-4d46-a28d-a38f02ce1b9a, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 00:58:20.7039 Info Guid:782e9dab-7933-4d46-a28d-a38f02ce1b9a, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Message":"Authorization has been denied for this request."} 
+2018-07-10 00:59:15.5180 Info Guid:d4f7ab29-9c61-4d19-9799-1eb129da75ce, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 00:59:15.5180 Info Guid:d4f7ab29-9c61-4d19-9799-1eb129da75ce, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Message":"Authorization has been denied for this request."} 
+2018-07-10 00:59:16.7435 Info Guid:2de1b78a-801f-4a62-837b-301c32d6357b, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 00:59:16.7435 Info Guid:2de1b78a-801f-4a62-837b-301c32d6357b, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Message":"Authorization has been denied for this request."} 
+2018-07-10 01:00:50.0483 Info Guid:e7a44b95-ad02-456e-8e67-27adb8076484, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 01:01:00.0223 Info Guid:3743c913-04c5-4c44-a71a-0e95826dacd9, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 01:01:01.2020 Info Guid:2b2e8968-3504-4538-b700-3a2272adf033, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 01:01:16.3964 Info Guid:496aa0e0-e9b0-4846-b600-2cd59c3d1675, Uri:http://localhost:13870/api/auth , Request:{
+	"Username":"TestUser",
+	"Password":"12345"
+} 
+2018-07-10 01:01:16.5844 Info Guid:496aa0e0-e9b0-4846-b600-2cd59c3d1675, Uri:http://localhost:13870/api/auth , Response:{"Success":true,"Code":90,"ExpiresAt":"2018-07-10T00:01:16.5334196Z","Message":"Authentication Success","Info":null,"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRlc3RVc2VyIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNTMxMTczNjc2LCJleHAiOjE1MzExODA4NzYsImlhdCI6MTUzMTE3MzY3Nn0.cik_vvu1f-Nc8ZQFAWCDXDRQcS7pI7eZt5fBDrmAt54"} 
+2018-07-10 01:01:37.1592 Info Guid:17d710e1-00b4-413b-94e3-f82a89126730, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 01:01:49.5065 Info Guid:1e1dd4ca-86cd-4030-b564-d7ccdf5cf044, Uri:http://localhost:13870/api/test/1 , Request: 
+2018-07-10 01:01:49.5255 Error Deneme 
+2018-07-10 01:01:49.5285 Info Guid:1e1dd4ca-86cd-4030-b564-d7ccdf5cf044, Uri:http://localhost:13870/api/test/1 , Response:{"Success":false,"Code":-1,"Message":"Technical Error","Info":null,"Exception":null} 
+2018-07-10 01:02:22.3626 Info Guid:c0d4b73e-ddc6-459a-80d1-391ffd0fe113, Uri:http://localhost:13870/api/test/1 , Request: 
+2018-07-10 01:02:31.0630 Info Guid:599d7e60-8d66-495d-9367-f977e2e4eb84, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 01:02:31.1760 Info Guid:599d7e60-8d66-495d-9367-f977e2e4eb84, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V
+.MNN-.V?*)*M?Qr?OIU?2?Qr,K?L?IuI,IJF??(??%?e??R?K2??`?u?<????Jsrj 
+2018-07-10 15:59:28.5285 Info Guid:576629dd-6a15-4112-b7ea-eef36942fc29, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 16:20:24.3722 Info Guid:4801a510-278d-4fb3-96ef-79c5ef5c705c, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 16:24:34.7431 Info Guid:3782d6f0-e003-4dc4-b307-c50b343644e9, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 16:30:59.2912 Info Guid:1b0fb743-cddb-4b4f-83c9-c5b038a2b0b5, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 16:31:08.9623 Info Guid:6d67a2c8-b01e-406c-a067-b752ac8162cc, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 16:31:36.9137 Info Guid:c7a5501a-a3e9-461e-9697-e5914a48c85a, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 16:35:39.3502 Info Guid:189e17e2-8e49-4029-9d91-5f872987d39e, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 16:41:57.0326 Info Guid:96b9db71-4820-46f2-9252-450bebc0401d, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 16:42:31.2228 Info Guid:96b9db71-4820-46f2-9252-450bebc0401d, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Message":"Authorization has been denied for this request."} 
+2018-07-10 16:42:51.4018 Info Guid:9496d799-a5cc-4da2-80c3-5c7e3a69d97c, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 16:43:41.6727 Info Guid:d0a60430-d548-4146-b14f-5daefb1cde2a, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 17:03:11.3338 Info Guid:a489771a-2e10-419d-90da-7e7bb7172fbd, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-10 19:18:04.9816 Info Guid:e1b94cc0-a42c-4498-97cd-4fb250cf557f, Uri:http://localhost:13870/api/auth , Request: 
+2018-07-10 19:18:05.1876 Error Nesne baþvurusu bir nesnenin örneðine ayarlanmadý. 
+2018-07-10 19:18:05.1876 Info Guid:e1b94cc0-a42c-4498-97cd-4fb250cf557f, Uri:http://localhost:13870/api/auth , Response:{"Success":false,"Code":-1,"Message":"Technical Error","Info":null,"Exception":null} 
+2018-07-11 10:33:39.8068 Info Guid:6209d801-2ec9-4623-b605-0f80da05126d, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 10:33:39.9018 Info Guid:6209d801-2ec9-4623-b605-0f80da05126d, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Message":"Authorization has been denied for this request."} 
+2018-07-11 10:46:39.5868 Info Guid:20d65267-f749-4dfc-8bcc-78ee2dd6fc41, Uri:http://localhost:13870/api/auth , Request:{
+	"Username":"TestUser",
+	"Password":"12345"
+} 
+2018-07-11 10:46:39.9648 Info Guid:20d65267-f749-4dfc-8bcc-78ee2dd6fc41, Uri:http://localhost:13870/api/auth , Response:{"Success":true,"Code":90,"ExpiresAt":"2018-07-11T09:46:39.8338427Z","Message":"Authentication Success","Info":null,"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRlc3RVc2VyIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNTMxMjk1MTk5LCJleHAiOjE1MzEzMDIzOTksImlhdCI6MTUzMTI5NTE5OX0.MgZxJIVqurDQw6gDAgD_SHcFtJRvgy03h6ehkuaRwW4"} 
+2018-07-11 10:46:56.4605 Info Guid:1338e32c-e611-4b5b-ae0f-7cc40c2e6ff1, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 10:46:56.5774 Info Guid:1338e32c-e611-4b5b-ae0f-7cc40c2e6ff1, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V2T?Q2bc 6bS 6S?  
+2018-07-11 10:48:42.2993 Info Guid:11c339b7-2546-4428-a851-a9c4af6ddd42, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 10:48:42.5802 Info Guid:11c339b7-2546-4428-a851-a9c4af6ddd42, Uri:http://localhost:13870/api/test/1?text=1 , Response:?6?1?1?1?1?1?  
+2018-07-11 15:57:08.2082 Info Guid:2ae38c8f-4d5a-4b45-8dda-c015c3ffaf23, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 15:57:08.2442 Info Guid:2ae38c8f-4d5a-4b45-8dda-c015c3ffaf23, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Message":"Authorization has been denied for this request."} 
+2018-07-11 16:40:17.6572 Info Guid:3c5f184e-20ae-404e-a8c7-8d67d4b8fba3, Uri:http://localhost:13870/api/auth , Request:{
+	"Username":"TestUser",
+	"Password":"12345"
+} 
+2018-07-11 16:40:18.0361 Info Guid:3c5f184e-20ae-404e-a8c7-8d67d4b8fba3, Uri:http://localhost:13870/api/auth , Response:{"Success":true,"Code":90,"ExpiresAt":"2018-07-11T15:40:17.8942140Z","Message":"Authentication Success","Info":null,"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRlc3RVc2VyIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNTMxMzE2NDE3LCJleHAiOjE1MzEzMjM2MTcsImlhdCI6MTUzMTMxNjQxN30.W7QdbyvtpzKvGZBn7J__pDj-HN-clOSDxpkN4a9cVCg"} 
+2018-07-11 16:40:22.4023 Info Guid:329c1668-4ece-4bfa-8c56-e6877ca3cf3f, Uri:http://localhost:13870/api/auth , Request:{
+	"Username":"TestUser",
+	"Password":"12345"
+} 
+2018-07-11 16:40:22.4023 Info Guid:329c1668-4ece-4bfa-8c56-e6877ca3cf3f, Uri:http://localhost:13870/api/auth , Response:{"Success":true,"Code":90,"ExpiresAt":"2018-07-11T15:40:22.4023122Z","Message":"Authentication Success","Info":null,"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRlc3RVc2VyIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNTMxMzE2NDIyLCJleHAiOjE1MzEzMjM2MjIsImlhdCI6MTUzMTMxNjQyMn0.rQ5DuoBh2B8dNFok33fUHttHh7KEcqpT9QacvxyaZLY"} 
+2018-07-11 16:40:26.8064 Info Guid:dfee683e-01f9-49eb-8460-d00b1fcc6c26, Uri:http://localhost:13870/api/auth , Request:{
+	"Username":"TestUser",
+	"Password":"12345"
+} 
+2018-07-11 16:40:26.8064 Info Guid:dfee683e-01f9-49eb-8460-d00b1fcc6c26, Uri:http://localhost:13870/api/auth , Response:{"Success":true,"Code":90,"ExpiresAt":"2018-07-11T15:40:26.8064312Z","Message":"Authentication Success","Info":null,"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRlc3RVc2VyIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNTMxMzE2NDI2LCJleHAiOjE1MzEzMjM2MjYsImlhdCI6MTUzMTMxNjQyNn0.ppfotTKMpaMETfhnh2PDSUhWr1SIYJcJFn6bQM-PHws"} 
+2018-07-11 16:40:27.6992 Info Guid:20f29fa0-5721-4d48-a369-cb18260901cb, Uri:http://localhost:13870/api/auth , Request:{
+	"Username":"TestUser",
+	"Password":"12345"
+} 
+2018-07-11 16:40:27.6992 Info Guid:20f29fa0-5721-4d48-a369-cb18260901cb, Uri:http://localhost:13870/api/auth , Response:{"Success":true,"Code":90,"ExpiresAt":"2018-07-11T15:40:27.7002524Z","Message":"Authentication Success","Info":null,"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRlc3RVc2VyIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNTMxMzE2NDI3LCJleHAiOjE1MzEzMjM2MjcsImlhdCI6MTUzMTMxNjQyN30.sA5pFq5zWKaNrDfeBbnJgUFEvvTQFmfarY1QQZEbQVs"} 
+2018-07-11 16:40:28.3921 Info Guid:7b256ac3-643d-41e8-b88d-530fc7d66d80, Uri:http://localhost:13870/api/auth , Request:{
+	"Username":"TestUser",
+	"Password":"12345"
+} 
+2018-07-11 16:40:28.3921 Info Guid:7b256ac3-643d-41e8-b88d-530fc7d66d80, Uri:http://localhost:13870/api/auth , Response:{"Success":true,"Code":90,"ExpiresAt":"2018-07-11T15:40:28.3931138Z","Message":"Authentication Success","Info":null,"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRlc3RVc2VyIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNTMxMzE2NDI4LCJleHAiOjE1MzEzMjM2MjgsImlhdCI6MTUzMTMxNjQyOH0.OE7gTaQ8DQ7vhnVZAHPDG3We3EZBSDD67WLuLK5EDEk"} 
+2018-07-11 16:40:29.4159 Info Guid:04313693-1741-4e24-8599-448fecbe1cf3, Uri:http://localhost:13870/api/auth , Request:{
+	"Username":"TestUser",
+	"Password":"12345"
+} 
+2018-07-11 16:40:29.4159 Info Guid:04313693-1741-4e24-8599-448fecbe1cf3, Uri:http://localhost:13870/api/auth , Response:{"Success":true,"Code":90,"ExpiresAt":"2018-07-11T15:40:29.4159092Z","Message":"Authentication Success","Info":null,"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRlc3RVc2VyIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNTMxMzE2NDI5LCJleHAiOjE1MzEzMjM2MjksImlhdCI6MTUzMTMxNjQyOX0.S9IAYFZunD4A6AXKYlORGm48LnOczXvt7pWepYkzsIQ"} 
+2018-07-11 16:40:30.3177 Info Guid:bd053043-6830-4276-ad5a-b1b7b322f4bb, Uri:http://localhost:13870/api/auth , Request:{
+	"Username":"TestUser",
+	"Password":"12345"
+} 
+2018-07-11 16:40:30.3187 Info Guid:bd053043-6830-4276-ad5a-b1b7b322f4bb, Uri:http://localhost:13870/api/auth , Response:{"Success":true,"Code":90,"ExpiresAt":"2018-07-11T15:40:30.3177288Z","Message":"Authentication Success","Info":null,"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRlc3RVc2VyIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNTMxMzE2NDMwLCJleHAiOjE1MzEzMjM2MzAsImlhdCI6MTUzMTMxNjQzMH0.j-m9HKoxmk2bcwshFwvVsDFCYGHBLycCyha-soXnNPQ"} 
+2018-07-11 16:40:31.0425 Info Guid:cdbfdc49-f5fb-47de-b6f8-6417bee7f2b3, Uri:http://localhost:13870/api/auth , Request:{
+	"Username":"TestUser",
+	"Password":"12345"
+} 
+2018-07-11 16:40:31.0425 Info Guid:cdbfdc49-f5fb-47de-b6f8-6417bee7f2b3, Uri:http://localhost:13870/api/auth , Response:{"Success":true,"Code":90,"ExpiresAt":"2018-07-11T15:40:31.0425838Z","Message":"Authentication Success","Info":null,"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRlc3RVc2VyIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNTMxMzE2NDMxLCJleHAiOjE1MzEzMjM2MzEsImlhdCI6MTUzMTMxNjQzMX0.aNcfLxS24PcYVnIeisRBKPbSKmuKGvIHWf5r6K4XR7A"} 
+2018-07-11 16:40:31.2345 Info Guid:2f7f8dde-8657-4938-b36a-4be54f879faa, Uri:http://localhost:13870/api/auth , Request:{
+	"Username":"TestUser",
+	"Password":"12345"
+} 
+2018-07-11 16:40:31.2345 Info Guid:2f7f8dde-8657-4938-b36a-4be54f879faa, Uri:http://localhost:13870/api/auth , Response:{"Success":true,"Code":90,"ExpiresAt":"2018-07-11T15:40:31.2345454Z","Message":"Authentication Success","Info":null,"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRlc3RVc2VyIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNTMxMzE2NDMxLCJleHAiOjE1MzEzMjM2MzEsImlhdCI6MTUzMTMxNjQzMX0.aNcfLxS24PcYVnIeisRBKPbSKmuKGvIHWf5r6K4XR7A"} 
+2018-07-11 16:40:31.5944 Info Guid:25e21661-1330-4f4d-821f-802859829c87, Uri:http://localhost:13870/api/auth , Request:{
+	"Username":"TestUser",
+	"Password":"12345"
+} 
+2018-07-11 16:40:31.5944 Info Guid:25e21661-1330-4f4d-821f-802859829c87, Uri:http://localhost:13870/api/auth , Response:{"Success":true,"Code":90,"ExpiresAt":"2018-07-11T15:40:31.5944734Z","Message":"Authentication Success","Info":null,"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRlc3RVc2VyIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNTMxMzE2NDMxLCJleHAiOjE1MzEzMjM2MzEsImlhdCI6MTUzMTMxNjQzMX0.aNcfLxS24PcYVnIeisRBKPbSKmuKGvIHWf5r6K4XR7A"} 
+2018-07-11 16:40:31.9723 Info Guid:2b248357-2070-4cd1-84b8-0fb377ad621e, Uri:http://localhost:13870/api/auth , Request:{
+	"Username":"TestUser",
+	"Password":"12345"
+} 
+2018-07-11 16:40:31.9723 Info Guid:2b248357-2070-4cd1-84b8-0fb377ad621e, Uri:http://localhost:13870/api/auth , Response:{"Success":true,"Code":90,"ExpiresAt":"2018-07-11T15:40:31.9723978Z","Message":"Authentication Success","Info":null,"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRlc3RVc2VyIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNTMxMzE2NDMxLCJleHAiOjE1MzEzMjM2MzEsImlhdCI6MTUzMTMxNjQzMX0.aNcfLxS24PcYVnIeisRBKPbSKmuKGvIHWf5r6K4XR7A"} 
+2018-07-11 16:40:32.3073 Info Guid:ba2f585e-addb-426c-88b6-62fb7ecbce4f, Uri:http://localhost:13870/api/auth , Request:{
+	"Username":"TestUser",
+	"Password":"12345"
+} 
+2018-07-11 16:40:32.3073 Info Guid:ba2f585e-addb-426c-88b6-62fb7ecbce4f, Uri:http://localhost:13870/api/auth , Response:{"Success":true,"Code":90,"ExpiresAt":"2018-07-11T15:40:32.3073308Z","Message":"Authentication Success","Info":null,"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRlc3RVc2VyIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNTMxMzE2NDMyLCJleHAiOjE1MzEzMjM2MzIsImlhdCI6MTUzMTMxNjQzMn0.n_XQSuLI6FEsbKeAP-x7iPlnKkfxiVYxUdBCMeVWSpk"} 
+2018-07-11 16:40:32.4942 Info Guid:d003078e-fdb6-4494-a08d-75383e5bfc06, Uri:http://localhost:13870/api/auth , Request:{
+	"Username":"TestUser",
+	"Password":"12345"
+} 
+2018-07-11 16:40:32.4942 Info Guid:d003078e-fdb6-4494-a08d-75383e5bfc06, Uri:http://localhost:13870/api/auth , Response:{"Success":true,"Code":90,"ExpiresAt":"2018-07-11T15:40:32.4942934Z","Message":"Authentication Success","Info":null,"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRlc3RVc2VyIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNTMxMzE2NDMyLCJleHAiOjE1MzEzMjM2MzIsImlhdCI6MTUzMTMxNjQzMn0.n_XQSuLI6FEsbKeAP-x7iPlnKkfxiVYxUdBCMeVWSpk"} 
+2018-07-11 16:40:32.8792 Info Guid:8f686c05-505a-4566-bf89-0d56c4243be0, Uri:http://localhost:13870/api/auth , Request:{
+	"Username":"TestUser",
+	"Password":"12345"
+} 
+2018-07-11 16:40:32.8792 Info Guid:8f686c05-505a-4566-bf89-0d56c4243be0, Uri:http://localhost:13870/api/auth , Response:{"Success":true,"Code":90,"ExpiresAt":"2018-07-11T15:40:32.8792164Z","Message":"Authentication Success","Info":null,"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRlc3RVc2VyIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNTMxMzE2NDMyLCJleHAiOjE1MzEzMjM2MzIsImlhdCI6MTUzMTMxNjQzMn0.n_XQSuLI6FEsbKeAP-x7iPlnKkfxiVYxUdBCMeVWSpk"} 
+2018-07-11 16:40:33.1951 Info Guid:c573be91-a1eb-477f-9746-c92ff9488f65, Uri:http://localhost:13870/api/auth , Request:{
+	"Username":"TestUser",
+	"Password":"12345"
+} 
+2018-07-11 16:40:33.1951 Info Guid:c573be91-a1eb-477f-9746-c92ff9488f65, Uri:http://localhost:13870/api/auth , Response:{"Success":true,"Code":90,"ExpiresAt":"2018-07-11T15:40:33.1951532Z","Message":"Authentication Success","Info":null,"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRlc3RVc2VyIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNTMxMzE2NDMzLCJleHAiOjE1MzEzMjM2MzMsImlhdCI6MTUzMTMxNjQzM30.kx3b2Lvy5RC22L00ka_IqV3zGggidpmA3P5Yv2HNG_A"} 
+2018-07-11 16:40:33.4191 Info Guid:8b434fc0-0287-4df0-ad19-25ae47ad56b2, Uri:http://localhost:13870/api/auth , Request:{
+	"Username":"TestUser",
+	"Password":"12345"
+} 
+2018-07-11 16:40:33.4191 Info Guid:8b434fc0-0287-4df0-ad19-25ae47ad56b2, Uri:http://localhost:13870/api/auth , Response:{"Success":true,"Code":90,"ExpiresAt":"2018-07-11T15:40:33.4191084Z","Message":"Authentication Success","Info":null,"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRlc3RVc2VyIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNTMxMzE2NDMzLCJleHAiOjE1MzEzMjM2MzMsImlhdCI6MTUzMTMxNjQzM30.kx3b2Lvy5RC22L00ka_IqV3zGggidpmA3P5Yv2HNG_A"} 
+2018-07-11 16:40:33.7280 Info Guid:70c6d539-97a0-4b9b-91fe-47b11e71caa8, Uri:http://localhost:13870/api/auth , Request:{
+	"Username":"TestUser",
+	"Password":"12345"
+} 
+2018-07-11 16:40:33.7280 Info Guid:70c6d539-97a0-4b9b-91fe-47b11e71caa8, Uri:http://localhost:13870/api/auth , Response:{"Success":true,"Code":90,"ExpiresAt":"2018-07-11T15:40:33.7280466Z","Message":"Authentication Success","Info":null,"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRlc3RVc2VyIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNTMxMzE2NDMzLCJleHAiOjE1MzEzMjM2MzMsImlhdCI6MTUzMTMxNjQzM30.kx3b2Lvy5RC22L00ka_IqV3zGggidpmA3P5Yv2HNG_A"} 
+2018-07-11 16:40:50.2337 Info Guid:8d2f3838-6aeb-430b-80c5-2d5e51cc3494, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:40:50.3577 Info Guid:8d2f3838-6aeb-430b-80c5-2d5e51cc3494, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V
+.MNN-.V?*)*M?Qr?OIU?2?Qr,K?L?IuI,IJF??(??%?e??R?K2??`?u?<????Jsrj 
+2018-07-11 16:40:52.7112 Info Guid:8cff4319-3863-470f-ab8c-ad58789b7e79, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:40:52.7112 Info Guid:8cff4319-3863-470f-ab8c-ad58789b7e79, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V
+.MNN-.V?*)*M?Qr?OIU?2?Qr,K?L?IuI,IJF??(??%?e??R?K2??`?u?<????Jsrj 
+2018-07-11 16:42:46.6544 Info Guid:6e1e9fe1-41af-4967-860a-fb2bcaf56733, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:42:46.9763 Info Guid:6e1e9fe1-41af-4967-860a-fb2bcaf56733, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V
+.MNN-.V?*)*M?Qr?OIU?2?Qr,K?L?IuI,IJF??(??%?e??R?K2??`?u?<????Jsrj 
+2018-07-11 16:42:47.6012 Info Guid:d9b4f083-19a8-407f-a0a2-c4b06b86bdd5, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:42:47.6012 Info Guid:d9b4f083-19a8-407f-a0a2-c4b06b86bdd5, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V
+.MNN-.V?*)*M?Qr?OIU?2?Qr,K?L?IuI,IJF??(??%?e??R?K2??`?u?<????Jsrj 
+2018-07-11 16:42:48.2501 Info Guid:a1663577-37eb-48c1-b3ee-9e59c59537af, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:42:48.2501 Info Guid:a1663577-37eb-48c1-b3ee-9e59c59537af, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V
+.MNN-.V?*)*M?Qr?OIU?2?Qr,K?L?IuI,IJF??(??%?e??R?K2??`?u?<????Jsrj 
+2018-07-11 16:42:48.7790 Info Guid:bf60f675-77f8-4663-8ccf-6e5adc5d70c1, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:42:48.7820 Info Guid:bf60f675-77f8-4663-8ccf-6e5adc5d70c1, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V
+.MNN-.V?*)*M?Qr?OIU?2?Qr,K?L?IuI,IJF??(??%?e??R?K2??`?u?<????Jsrj 
+2018-07-11 16:42:49.2819 Info Guid:ae9cbbd9-482f-465e-b3b6-fce3672da75d, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:42:49.2819 Info Guid:ae9cbbd9-482f-465e-b3b6-fce3672da75d, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V
+.MNN-.V?*)*M?Qr?OIU?2?Qr,K?L?IuI,IJF??(??%?e??R?K2??`?u?<????Jsrj 
+2018-07-11 16:42:49.7848 Info Guid:15d15a6f-e2f5-4d3a-94b8-38e660739ecd, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:42:49.7848 Info Guid:15d15a6f-e2f5-4d3a-94b8-38e660739ecd, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V
+.MNN-.V?*)*M?Qr?OIU?2?Qr,K?L?IuI,IJF??(??%?e??R?K2??`?u?<????Jsrj 
+2018-07-11 16:42:50.2997 Info Guid:38f08e6e-6b09-455d-ac76-1f1576bf7c0f, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:42:50.2997 Info Guid:38f08e6e-6b09-455d-ac76-1f1576bf7c0f, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V
+.MNN-.V?*)*M?Qr?OIU?2?Qr,K?L?IuI,IJF??(??%?e??R?K2??`?u?<????Jsrj 
+2018-07-11 16:42:50.8346 Info Guid:5aa01e32-fbe8-404d-a4ca-963537a4e999, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:42:50.8346 Info Guid:5aa01e32-fbe8-404d-a4ca-963537a4e999, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V
+.MNN-.V?*)*M?Qr?OIU?2?Qr,K?L?IuI,IJF??(??%?e??R?K2??`?u?<????Jsrj 
+2018-07-11 16:42:51.2885 Info Guid:789f207a-99b5-4f4b-af54-2c06cf5d0035, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:42:51.2885 Info Guid:789f207a-99b5-4f4b-af54-2c06cf5d0035, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V
+.MNN-.V?*)*M?Qr?OIU?2?Qr,K?L?IuI,IJF??(??%?e??R?K2??`?u?<????Jsrj 
+2018-07-11 16:42:51.7834 Info Guid:c47a8684-4b92-4856-89b4-8aa94bf75ee1, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:42:51.7834 Info Guid:c47a8684-4b92-4856-89b4-8aa94bf75ee1, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V
+.MNN-.V?*)*M?Qr?OIU?2?Qr,K?L?IuI,IJF??(??%?e??R?K2??`?u?<????Jsrj 
+2018-07-11 16:42:52.2743 Info Guid:074156de-683d-4484-b516-426732026817, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:42:52.2743 Info Guid:074156de-683d-4484-b516-426732026817, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V
+.MNN-.V?*)*M?Qr?OIU?2?Qr,K?L?IuI,IJF??(??%?e??R?K2??`?u?<????Jsrj 
+2018-07-11 16:42:52.5282 Info Guid:6a68ebc8-edaa-4ba9-ab99-e41ff6cb3aa4, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:42:52.5282 Info Guid:6a68ebc8-edaa-4ba9-ab99-e41ff6cb3aa4, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V
+.MNN-.V?*)*M?Qr?OIU?2?Qr,K?L?IuI,IJF??(??%?e??R?K2??`?u?<????Jsrj 
+2018-07-11 16:42:52.7792 Info Guid:0da42bd5-63bf-4359-a20a-f1e161d86d4c, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:42:52.7792 Info Guid:0da42bd5-63bf-4359-a20a-f1e161d86d4c, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V
+.MNN-.V?*)*M?Qr?OIU?2?Qr,K?L?IuI,IJF??(??%?e??R?K2??`?u?<????Jsrj 
+2018-07-11 16:42:53.0281 Info Guid:69636614-2674-40d1-bfdf-944b10d7b9dd, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:42:53.0281 Info Guid:69636614-2674-40d1-bfdf-944b10d7b9dd, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V
+.MNN-.V?*)*M?Qr?OIU?2?Qr,K?L?IuI,IJF??(??%?e??R?K2??`?u?<????Jsrj 
+2018-07-11 16:42:53.3831 Info Guid:28ca9eab-815e-4d6c-8fd8-a415e5282eeb, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:42:53.3831 Info Guid:28ca9eab-815e-4d6c-8fd8-a415e5282eeb, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V
+.MNN-.V?*)*M?Qr?OIU?2?Qr,K?L?IuI,IJF??(??%?e??R?K2??`?u?<????Jsrj 
+2018-07-11 16:42:53.5890 Info Guid:29d40b6f-044e-4650-8165-c033399242bc, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:42:53.5890 Info Guid:29d40b6f-044e-4650-8165-c033399242bc, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V
+.MNN-.V?*)*M?Qr?OIU?2?Qr,K?L?IuI,IJF??(??%?e??R?K2??`?u?<????Jsrj 
+2018-07-11 16:42:53.7990 Info Guid:292ae896-3fe7-4cea-bc8b-45702ed7b5e4, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:42:53.7990 Info Guid:292ae896-3fe7-4cea-bc8b-45702ed7b5e4, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V
+.MNN-.V?*)*M?Qr?OIU?2?Qr,K?L?IuI,IJF??(??%?e??R?K2??`?u?<????Jsrj 
+2018-07-11 16:42:53.9809 Info Guid:b96f7f86-461a-4715-b18b-b7e62a2e0acb, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:42:53.9809 Info Guid:b96f7f86-461a-4715-b18b-b7e62a2e0acb, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V
+.MNN-.V?*)*M?Qr?OIU?2?Qr,K?L?IuI,IJF??(??%?e??R?K2??`?u?<????Jsrj 
+2018-07-11 16:42:54.3669 Info Guid:76de2394-a3ce-47d2-9096-6026e0a15e89, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:42:54.3669 Info Guid:76de2394-a3ce-47d2-9096-6026e0a15e89, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V
+.MNN-.V?*)*M?Qr?OIU?2?Qr,K?L?IuI,IJF??(??%?e??R?K2??`?u?<????Jsrj 
+2018-07-11 16:42:54.5428 Info Guid:4f75c07c-521f-4d98-a468-58044cddab68, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:42:54.5428 Info Guid:4f75c07c-521f-4d98-a468-58044cddab68, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V
+.MNN-.V?*)*M?Qr?OIU?2?Qr,K?L?IuI,IJF??(??%?e??R?K2??`?u?<????Jsrj 
+2018-07-11 16:42:54.7878 Info Guid:bc2f5227-b655-42a2-a7d1-245d5a400fb0, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:42:54.7878 Info Guid:bc2f5227-b655-42a2-a7d1-245d5a400fb0, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V
+.MNN-.V?*)*M?Qr?OIU?2?Qr,K?L?IuI,IJF??(??%?e??R?K2??`?u?<????Jsrj 
+2018-07-11 16:42:55.0087 Info Guid:b03bb3cd-a8e1-4c05-87f4-8b5ef21e74f5, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:42:55.0087 Info Guid:b03bb3cd-a8e1-4c05-87f4-8b5ef21e74f5, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V
+.MNN-.V?*)*M?Qr?OIU?2?Qr,K?L?IuI,IJF??(??%?e??R?K2??`?u?<????Jsrj 
+2018-07-11 16:42:55.2217 Info Guid:3168c05a-bab3-40c4-a018-7e443c489a8a, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:42:55.2217 Info Guid:3168c05a-bab3-40c4-a018-7e443c489a8a, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V
+.MNN-.V?*)*M?Qr?OIU?2?Qr,K?L?IuI,IJF??(??%?e??R?K2??`?u?<????Jsrj 
+2018-07-11 16:42:55.4336 Info Guid:a230cbe6-08bd-4bcb-87f9-f4909a01b83a, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:42:55.4336 Info Guid:a230cbe6-08bd-4bcb-87f9-f4909a01b83a, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V
+.MNN-.V?*)*M?Qr?OIU?2?Qr,K?L?IuI,IJF??(??%?e??R?K2??`?u?<????Jsrj 
+2018-07-11 16:42:55.6476 Info Guid:235e2bf2-3a3c-4c19-a55b-d1c9c8ee34ec, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:42:55.6476 Info Guid:235e2bf2-3a3c-4c19-a55b-d1c9c8ee34ec, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V
+.MNN-.V?*)*M?Qr?OIU?2?Qr,K?L?IuI,IJF??(??%?e??R?K2??`?u?<????Jsrj 
+2018-07-11 16:42:56.0365 Info Guid:294f7b41-9755-4b28-b65c-df619031b89b, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:42:56.0365 Info Guid:294f7b41-9755-4b28-b65c-df619031b89b, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V
+.MNN-.V?*)*M?Qr?OIU?2?Qr,K?L?IuI,IJF??(??%?e??R?K2??`?u?<????Jsrj 
+2018-07-11 16:42:56.2635 Info Guid:c0cf5637-6a36-4d61-a923-2e616b5b7e9e, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:42:56.2635 Info Guid:c0cf5637-6a36-4d61-a923-2e616b5b7e9e, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V
+.MNN-.V?*)*M?Qr?OIU?2?Qr,K?L?IuI,IJF??(??%?e??R?K2??`?u?<????Jsrj 
+2018-07-11 16:42:57.0553 Info Guid:fc7f01ce-05e9-4bf7-8334-e6a3c9645a9f, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:42:57.0553 Info Guid:fc7f01ce-05e9-4bf7-8334-e6a3c9645a9f, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V
+.MNN-.V?*)*M?Qr?OIU?2?Qr,K?L?IuI,IJF??(??%?e??R?K2??`?u?<????Jsrj 
+2018-07-11 16:50:51.9923 Info Guid:daff459c-6b19-441d-86ec-13d1e47cbcdd, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:50:52.2183 Error Nesne baþvurusu bir nesnenin örneðine ayarlanmadý. 
+2018-07-11 16:50:52.2183 Info Guid:daff459c-6b19-441d-86ec-13d1e47cbcdd, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Success":false,"Code":-1,"Message":"Technical Error","Info":null,"Exception":null} 
+2018-07-11 16:50:55.9075 Info Guid:82e2d3bc-26dd-4368-a4d5-5fbb64e5e917, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:50:55.9505 Error Nesne baþvurusu bir nesnenin örneðine ayarlanmadý. 
+2018-07-11 16:50:55.9505 Info Guid:82e2d3bc-26dd-4368-a4d5-5fbb64e5e917, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Success":false,"Code":-1,"Message":"Technical Error","Info":null,"Exception":null} 
+2018-07-11 16:50:56.7834 Info Guid:00e3e32f-0cc1-4fba-8037-51acfe276a7e, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:50:56.8294 Error Nesne baþvurusu bir nesnenin örneðine ayarlanmadý. 
+2018-07-11 16:50:56.8294 Info Guid:00e3e32f-0cc1-4fba-8037-51acfe276a7e, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Success":false,"Code":-1,"Message":"Technical Error","Info":null,"Exception":null} 
+2018-07-11 16:50:57.6142 Info Guid:e0079f8b-cca3-433b-b0fd-9695443165f4, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:50:57.6572 Error Nesne baþvurusu bir nesnenin örneðine ayarlanmadý. 
+2018-07-11 16:50:57.6572 Info Guid:e0079f8b-cca3-433b-b0fd-9695443165f4, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Success":false,"Code":-1,"Message":"Technical Error","Info":null,"Exception":null} 
+2018-07-11 16:51:01.1205 Info Guid:93043e1b-3c82-4baf-9e82-ae2b264f4690, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:51:01.1675 Error Nesne baþvurusu bir nesnenin örneðine ayarlanmadý. 
+2018-07-11 16:51:01.1675 Info Guid:93043e1b-3c82-4baf-9e82-ae2b264f4690, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Success":false,"Code":-1,"Message":"Technical Error","Info":null,"Exception":null} 
+2018-07-11 16:51:01.8084 Info Guid:62ed8e4c-33de-4a17-9fa9-daa347a3f321, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:51:01.8513 Error Nesne baþvurusu bir nesnenin örneðine ayarlanmadý. 
+2018-07-11 16:51:01.8513 Info Guid:62ed8e4c-33de-4a17-9fa9-daa347a3f321, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Success":false,"Code":-1,"Message":"Technical Error","Info":null,"Exception":null} 
+2018-07-11 16:51:02.5852 Info Guid:2f501047-f993-4501-bd61-30214f7a6872, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:51:02.6402 Error Nesne baþvurusu bir nesnenin örneðine ayarlanmadý. 
+2018-07-11 16:51:02.6402 Info Guid:2f501047-f993-4501-bd61-30214f7a6872, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Success":false,"Code":-1,"Message":"Technical Error","Info":null,"Exception":null} 
+2018-07-11 16:51:07.3402 Info Guid:65848f47-ca1d-465e-b171-6231b2b3b229, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:51:07.5042 Info Guid:65848f47-ca1d-465e-b171-6231b2b3b229, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V
+.MNN-.V?*)*M?Qr?OIU?2?Qr,K?L?IuI,IJF??(??%?e??R?K2??`?u?<????Jsrj 
+2018-07-11 16:51:33.4520 Info Guid:e360d35a-9b2a-4830-8956-aba25fb6bde2, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:51:33.4520 Info Guid:e360d35a-9b2a-4830-8956-aba25fb6bde2, Uri:http://localhost:13870/api/test/1?text=1 , Response:?V
+.MNN-.V?*)*M?Qr?OIU?2?Qr,K?L?IuI,IJF??(??%?e??R?K2??`?u?<????Jsrj 
+2018-07-11 16:51:37.4782 Info Guid:597df7b5-93b7-44ab-acc1-845ba00291e2, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:52:29.5278 Info Guid:a967b363-8ad7-4407-9a22-e3da4a858b79, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:52:48.5620 Error Nesne baþvurusu bir nesnenin örneðine ayarlanmadý. 
+2018-07-11 16:52:48.5620 Info Guid:a967b363-8ad7-4407-9a22-e3da4a858b79, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Success":false,"Code":-1,"Message":"Technical Error","Info":null,"Exception":null} 
+2018-07-11 16:52:54.5058 Info Guid:2a313d81-f3b5-41f1-8062-531f971be7f8, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:53:53.7540 Info Guid:2b99fccc-a2d0-4802-b06b-457e1e52b16e, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:59:46.5394 Info Guid:e0799804-31ca-415a-9006-7936317a7001, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:59:48.1801 Info Guid:c0c2ca4b-16da-4ffe-8ca3-8d7af782e0f4, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:59:48.7999 Info Guid:8421c438-46db-42d5-8662-02b39c99e47b, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:59:49.0039 Info Guid:b0ad655c-d417-4f61-b5c8-88ef7826db02, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:59:49.1909 Info Guid:e44c923a-737b-4a50-8cf5-9e31f3725d2f, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:59:49.5438 Info Guid:1ac473a4-f6c7-42d7-8992-a0f6db7db132, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:59:49.7288 Info Guid:c0ffb431-013e-41d2-9abe-a92a0126df27, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:59:50.1087 Info Guid:cb1a9143-5520-4b89-bb88-8a9dad616909, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:59:50.4336 Info Guid:f7ac384f-a9d7-4e88-95b2-4b28fe0175c7, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:59:50.6436 Info Guid:47fe37fa-a81d-4320-b115-0c2f0efbe90b, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:59:50.8355 Info Guid:64b2b4e8-4b15-4f13-a1d9-1ba459f1c016, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:59:51.0035 Info Guid:c9c247c6-c505-45a0-81a5-099673295074, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:59:51.1925 Info Guid:538251d1-d11c-42bb-b5bc-f43ac00f693c, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:59:51.3934 Info Guid:d96c261a-b116-45ef-ace0-b57c96f6a7cb, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:59:51.7264 Info Guid:b0cf582c-b7bd-468e-adeb-e3b3b5acf06c, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:59:51.9173 Info Guid:cbae228f-28c2-4820-b7a7-80895ba484e0, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:59:52.1633 Info Guid:da320d31-039e-41e3-b910-6c1f1ca88c8d, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 16:59:52.5152 Info Guid:5f322d91-6890-4c31-af93-ea2a6193162a, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 17:01:47.7871 Info Guid:a1b969cf-4d4d-4c91-b0a2-91da76651fcb, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 17:01:47.9711 Info Guid:a1b969cf-4d4d-4c91-b0a2-91da76651fcb, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Headers":[{"Key":"Content-Type","Value":["application/json; charset=utf-8"]}]} 
+2018-07-11 17:02:20.4566 Info Guid:b590a78a-2b78-42fc-b2e2-d5be03ed3bc5, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 17:04:10.4786 Info Guid:68e4614d-c564-4920-b187-71b4407727c7, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 17:04:10.6706 Info Guid:68e4614d-c564-4920-b187-71b4407727c7, Uri:http://localhost:13870/api/test/1?text=1 , Response:"{\"Success\":false,\"Code\":93,\"Message\":\"Missing Bearer attribute\",\"Info\":null,\"Exception\":null}" 
+2018-07-11 17:04:13.9409 Info Guid:48c03a9e-5452-4ac6-a29c-0143751f74a6, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 17:04:13.9409 Info Guid:48c03a9e-5452-4ac6-a29c-0143751f74a6, Uri:http://localhost:13870/api/test/1?text=1 , Response:"{\"Success\":false,\"Code\":93,\"Message\":\"Missing Bearer attribute\",\"Info\":null,\"Exception\":null}" 
+2018-07-11 17:05:46.0445 Info Guid:7e9c5e0b-7092-465c-82b1-bc071da38ce0, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 17:05:46.2094 Info Guid:7e9c5e0b-7092-465c-82b1-bc071da38ce0, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Success":false,"Code":92,"Info":null,"Message":"Invalid token"} 
+2018-07-11 17:10:12.4222 Info Guid:c1bb38b9-2e84-4afa-9926-a7569816201f, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 17:10:12.5892 Info Guid:c1bb38b9-2e84-4afa-9926-a7569816201f, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Success":false,"Code":92,"Info":null,"Message":"Invalid token"} 
+2018-07-11 17:10:14.8697 Info Guid:55b8b408-a696-42e8-8606-c0b9c4ef3774, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 17:10:14.8907 Info Guid:55b8b408-a696-42e8-8606-c0b9c4ef3774, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Message":"Authorization has been denied for this request."} 
+2018-07-11 17:12:51.5414 Info Guid:bb1f8dea-e1a9-4c9e-9d47-36fdb7a74d4d, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 17:12:51.5414 Info Guid:bb1f8dea-e1a9-4c9e-9d47-36fdb7a74d4d, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Message":"Authorization has been denied for this request."} 
+2018-07-11 17:12:52.4392 Info Guid:63ab7063-b519-4f04-9c75-66d38e3580d1, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 17:12:52.4392 Info Guid:63ab7063-b519-4f04-9c75-66d38e3580d1, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Message":"Authorization has been denied for this request."} 
+2018-07-11 17:12:56.2724 Info Guid:faf68e22-e229-411f-87dd-e4a59d075b95, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 17:12:56.2724 Info Guid:faf68e22-e229-411f-87dd-e4a59d075b95, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Success":false,"Code":92,"Info":null,"Message":"Invalid token"} 
+2018-07-11 17:13:03.4560 Info Guid:6708106c-a906-4c72-a523-77da7927a169, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 17:13:03.4560 Info Guid:6708106c-a906-4c72-a523-77da7927a169, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Success":false,"Code":93,"Info":null,"Message":"Missing Bearer attribute"} 
+2018-07-11 17:14:49.3768 Info Guid:f4cd12f9-8fe9-4007-a464-c2b859a18d44, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 17:14:49.4508 Info Guid:f4cd12f9-8fe9-4007-a464-c2b859a18d44, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Success":false,"Code":94,"Info":null,"Message":"Missing Jwt token"} 
+2018-07-11 17:14:53.8839 Info Guid:6ae909ac-3fb2-4670-9649-c8434428538c, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 17:14:53.8839 Info Guid:6ae909ac-3fb2-4670-9649-c8434428538c, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Success":false,"Code":92,"Info":null,"Message":"Invalid token"} 
+2018-07-11 17:15:00.6155 Info Guid:5401d1ca-e3af-4b4c-9403-b9e699fa5d6d, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 17:15:00.6155 Info Guid:5401d1ca-e3af-4b4c-9403-b9e699fa5d6d, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Success":false,"Code":93,"Info":null,"Message":"Missing Bearer attribute"} 
+2018-07-11 17:21:42.9651 Info Guid:331d653f-0f36-430c-a310-725b29082499, Uri:http://localhost:13870/api/test/1?text=1 , Request: 
+2018-07-11 17:21:42.9651 Info Guid:331d653f-0f36-430c-a310-725b29082499, Uri:http://localhost:13870/api/test/1?text=1 , Response:{"Success":false,"Code":93,"Info":null,"Message":"Missing Bearer attribute"} 

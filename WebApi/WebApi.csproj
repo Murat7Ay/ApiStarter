@@ -175,6 +175,8 @@
     <Compile Include="Custom\JilJson\JilSerializationAttribute.cs" />
     <Compile Include="Custom\Log\LogRequestAndResponseHandler.cs" />
     <Compile Include="Custom\Log\UnhandledExceptionLogger.cs" />
+    <Compile Include="Custom\Throttle\ThrottleFilter.cs" />
+    <Compile Include="Custom\Throttle\Throttler.cs" />
     <Compile Include="Enums\ResultEnum.cs" />
     <Compile Include="Extensions\EnumExtensions.cs" />
     <Compile Include="Extensions\ReturnValuesAttribute.cs" />

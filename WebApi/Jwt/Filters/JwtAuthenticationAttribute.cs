@@ -1,11 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.Net.Http;
 using System.Security.Claims;
 using System.Security.Principal;
+using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Web.Http.Filters;
+using WebApi.Enums;
 using WebApi.Jwt.CheckUser;
 using WebApi.Jwt.WebApi.Jwt;
 
@@ -23,11 +27,14 @@ namespace WebApi.Jwt.Filters
             var authorization = request.Headers.Authorization;
 
             if (authorization == null || authorization.Scheme != "Bearer")
+            {
+                context.ErrorResult = new AuthenticationFailureResult("Missing Bear", ResultEnum.MissingBearerToken, request);
                 return;
+            }
 
             if (string.IsNullOrEmpty(authorization.Parameter))
             {
-                context.ErrorResult = new AuthenticationFailureResult("Missing Jwt Token", request);
+                context.ErrorResult = new AuthenticationFailureResult("Missing Jwt Token", ResultEnum.MissingJwtToken, request);
                 return;
             }
 
@@ -35,15 +42,16 @@ namespace WebApi.Jwt.Filters
             var principal = await AuthenticateJwtToken(token);
 
             if (principal == null)
-                context.ErrorResult = new AuthenticationFailureResult("Invalid token", request);
-
+            {
+                context.ErrorResult = new AuthenticationFailureResult("Invalid token", ResultEnum.InvalidToken, request);
+            }
             else
                 context.Principal = principal;
         }
 
 
 
-        private static bool ValidateToken(string token,string roles, out string username, out List<string> userRoles)
+        private static bool ValidateToken(string token, string roles, out string username, out List<string> userRoles)
         {
             username = null;
             userRoles = null;
@@ -81,7 +89,7 @@ namespace WebApi.Jwt.Filters
         {
             string username;
             List<string> userRoles;
-            if (ValidateToken(token, Roles, out username,out userRoles))
+            if (ValidateToken(token, Roles, out username, out userRoles))
             {
                 // based on username to get more information from database in order to build local identity
                 var claims = new List<Claim>

@@ -19,11 +19,4 @@ namespace WebApi.Controllers
             return Ok(JwtManager.GenerateToken(authModel));
         }
     }
-
-    public class Modee
-    {
-        public string Username { get; set; }
-        public string Password { get; set; }
-    }
-    
 }

@@ -11,6 +11,15 @@ namespace WebApi.Enums
         [ReturnValues(true, 90, "Authentication Success")]
         AuthUser,
         [ReturnValues(false, 91, "Authentication Failed")]
-        UnAuthUser
+        UnAuthUser,
+        [ReturnValues(false,92,"Invalid token")]
+        InvalidToken,
+        [ReturnValues(false,93, "Missing Authorization Bearer")]
+        MissingBearerToken,
+        [ReturnValues(false,94,"Missing Jwt token")]
+        MissingJwtToken,
+        [ReturnValues(false,100,"Too many request")]
+        TooManyRequests
+
     }
 }

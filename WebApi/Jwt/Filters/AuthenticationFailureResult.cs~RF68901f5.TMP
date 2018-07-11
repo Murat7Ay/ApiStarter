@@ -4,22 +4,21 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Web.Http;
-using WebApi.Enums;
-using WebApi.Factory;
-using WebApi.Models;
 
 namespace WebApi.Jwt.Filters
 {
     public class AuthenticationFailureResult : IHttpActionResult
     {
-        public AuthenticationFailureResult(string reasonPhrase, ResultEnum result,HttpRequestMessage request)
+        public AuthenticationFailureResult(string reasonPhrase, HttpRequestMessage request)
         {
+            request.Content = new HttpMessageContent(new HttpRequestMessage
+            {
+                Content = new StringContent("asd",Encoding.UTF8,"application/json")
+            });
             ReasonPhrase = reasonPhrase;
             Request = request;
-            Result = result;
+            
         }
-
-        public ResultEnum Result { get; }
 
         public string ReasonPhrase { get; }
 
@@ -32,9 +31,12 @@ namespace WebApi.Jwt.Filters
 
         private HttpResponseMessage Execute()
         {
-            var response = Request.CreateResponse(HttpStatusCode.Unauthorized,new BaseResponse(Result));
-            response.RequestMessage = Request;
-            response.ReasonPhrase = ReasonPhrase;
+            HttpResponseMessage response = new HttpResponseMessage(HttpStatusCode.Unauthorized)
+            {
+                RequestMessage = Request,
+                ReasonPhrase = ReasonPhrase
+            };
+
             return response;
         }
     }
